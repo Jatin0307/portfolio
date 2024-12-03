@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jatin Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/aff8f34a8d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+         <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="Images/logo.png" alt="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Prompt Engineer || Full Stack Developer || Java Developer</p>
+                    <h1>Hi! I'm <span>Jatin Dhiman</span><br>From Bahadurgarh,Haryana</h1>
+                </div>
+            </div>
+         </div>
+
+         <!---------------about--------------->
+         <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/About.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I hold a Master of Computer Applications (MCA) degree, which has equipped me with a solid understanding of programming languages, data structures, and algorithms. My academic background has instilled in me a strong analytical mindset and problem-solving abilities.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Prompt Engineer</span><br>Designs/Optimizes Prompts</li>
+                            <li><span>Full Stack Development</span><br>Web App Desining</li>
+                            <li><span>Java Developer</span><br>Testing Java App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>March,2024 - June,2024</span><br>Prompt Engineer at Softage Information technology pvt. ltd</li>
+                            <li><span>Jan,2022 - March,2024</span><br>Web Development intern at Skyhighs </li>
+                            <li><span>Aug,2023 - Oct.2023 </span><br>java Development intern at ICT Academy</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 </span><br>MCA from SGT University</li>
+                            <li><span>2021</span><br>B.Sc.(CS) from MDU</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+         <!------------------------services-------------------------->
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-hexagon-nodes"></i>
+                <h2>Prompt Engineering</h2>
+                <p>Traning at Softage Information Technology pvt. ltd.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>3 months internship at Skyhighs</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java Development</h2>
+                <p>Virtual internship of 1 month at Open Weaver provided by ICT Academy</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------portfolio-------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+<div class="work-list">
+    <div class="work">
+        <img src="Images/work1.jpg">
+        <div class="layer">
+            <h3>Large Language Model</h3>
+            <p> Involves designing and tuning natural language prompts to improve the performance. It relies on providing the model with a suitable input prompt that contains instructions and/or examples of the desired task.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+    </div>
+    <div class="work">
+        <img src="Images/work2.jpg">
+        <div class="layer">
+            <h3>Food delivery Web Application</h3>
+            <p> Developed Foodie-Moodie web application without coding enviorment and a business web application with knowledge of HTML, CSS and Javascript with my peers as an intern</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+    </div>
+    <div class="work">
+        <img src="Images/work3.jpg">
+        <div class="layer">
+            <h3>Ticket Reservation System</h3>
+            <p> Developed and test a project in my acadmics of Railway Ticket Reservation System in which user can reserved their ticket through authorization process stored in database.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+    </div>
+</div>
+<a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----------------------------contact----------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="usb-title">Contact Me</h1>
+                <p><i class="fa-solid fa-phone"></i> +91-8295352826</p>
+                <p><i class="fa-regular fa-paper-plane"></i> dhimanjatin372@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/jatin-dhiman-431475215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/Jatindhiman03?t=phqYCCiBL1e_QcY1Sc44xw&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/mr._thuganomics?igsh=MThwanB2Zm9uMzZuNA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Jatin0307"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Images/JCV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button> 
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Jatin Dhiman</p>
+    </div>
+</div>
+
+<!----------------------------------------------------->
+
+         <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+         </script>
+         <script>
+            var sidemenu= document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0"
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px"
+            }
+         </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxnXqqqdxtDfZ2nTIa5iAqF4RCU9NHQJ2hRYXvLWaLjq4H7RXLR5JC_czomt9Sb_cT7AQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Thank you! For contact me"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+</html>
